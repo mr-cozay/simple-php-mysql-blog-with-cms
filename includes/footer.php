@@ -3,7 +3,7 @@
                 <div class="col-lg-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <p class="mb-md-0 text-center text-md-left">
-                            &copy; <?= date('Y') ?> Tous droits réservés - Congo Telecom.
+                            &copy; <?= date('Y') ?> Tous droits réservés - Dassin Rock Mouelet.
                         </p>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Dassin Rock Mouelet a.k.a Myster Cozay">
 
-    <title>Congo Telecom</title>
+    <title>Blog CMS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

@@ -29,6 +29,7 @@
                                 echo "<h1>0 résultat trouvé pour '$search'</h1>";
                             } else {
                                 while ($row = mysqli_fetch_assoc($result)) {
+                                    $post_id = $row['post_id'];
                                     $post_title = $row['post_title'];
                                     $post_author = $row['post_author'];
                                     $post_date = $row['post_date'];
@@ -49,7 +50,7 @@
                                     <img class="img-responsive" src="images/<?php echo $post_image ?>" alt="">
                                     <hr>
                                     <p><?php echo $post_content ?></p>
-                                    <a class="btn btn-primary" href="#">Lire plus <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                    <a class="btn btn-primary" href="post.php?p_id=<?php echo $post_id ?>">Lire plus <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                                     <hr>
 
